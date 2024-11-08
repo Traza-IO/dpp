@@ -19,3 +19,33 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.swiper-slide-active {
+  @apply scale-110 opacity-100;
+}
+
+.swiper-slide-prev,
+.swiper-slide-next {
+  @apply scale-95 opacity-75;
+}
+
+.swiper-slide {
+  @apply transition-transform duration-500 ease-in-out transform;
+}
+.swiper-3d .swiper-slide-shadow-left,
+.swiper-3d .swiper-slide-shadow-right {
+  display: none;
+}
+
+.swiper-slide {
+  opacity: 0.4;
+}
+
+.swiper-slide.swiper-slide-next {
+  opacity: 1;
+}
+
+.nav-link.active {
+  color: #1e90ff;
+  font-weight: bold;
+}
