@@ -24,13 +24,13 @@ const Nav = () => {
           </NavLink>
         </li>
         <li className="flex-1">
-          <NavLink href="/" className="py-3 block text-center">
+          <NavLink href="/sostenibilidad" className="py-3 block text-center">
             <FaLeaf className="mx-auto" />
             <span className="text-[10px]">Sostenibilidad</span>
           </NavLink>
         </li>
         <li className="flex-1">
-          <NavLink href="/" className="py-3 block text-center">
+          <NavLink href="/blockchain" className="py-3 block text-center">
             <FaInfinity className="mx-auto" />
             <span className="text-[10px]">Blockchain</span>
           </NavLink>

@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
-import { Poppins } from "next/font/google";
+import { Roboto } from "next/font/google";
 import "./globals.css";
 import Nav from "./components/Nav";
 import Slider from "./components/Slider";
@@ -17,7 +17,7 @@ const geistMono = localFont({
   variable: "--font-geist-mono",
   weight: "100 900",
 });
-const poppins = Poppins({
+const roboto = Roboto({
   subsets: ["latin"],
   weight: ["400", "700"],
 });
@@ -35,7 +35,7 @@ export default function RootLayout({
   return (
     <html lang="es">
       <body
-        className={`${poppins.className} ${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${roboto.className} ${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         <Nav />
         <Slider />

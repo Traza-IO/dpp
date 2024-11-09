@@ -2,7 +2,7 @@
 import Accordion from "../components/Accordion/Accordion";
 import AccordionContent from "../components/Accordion/components/AccordionContent";
 import AccordionHead from "../components/Accordion/components/AccordionHead";
-// import Description from "../components/Description";
+import { FaMapMarkerAlt } from "react-icons/fa";
 
 export default function Trazabilidad() {
   return (
@@ -14,8 +14,69 @@ export default function Trazabilidad() {
             Descripción
           </AccordionHead>
           <AccordionContent isOpen={false}>
-            <p>Descripción</p>
-            <p>Hola</p>
+            <div className="mb-6">
+              <h3 className="text-[#45483D] text-[15px] mb-6">
+                TELA DE ALGODÓN TANGÜIS: BERGMAN / RIVERA
+              </h3>
+              <div className="flex items-start">
+                <div className="mr-3 mt-1">
+                  <FaMapMarkerAlt color={"#5F6259"} className="text-[28px]" />
+                </div>
+                <div className="">
+                  <h4 className="font-bold text-[#5F6259] text-[17px] m-0">
+                    Localización
+                  </h4>
+                  <span className="text-[13px] text-[#5F6259] font-bold block">
+                    Ubicación:
+                  </span>
+                  <p className="text-[13px] text-[#5F6259]">
+                    Dirección, provincia, departamento, región
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="mb-6">
+              <h3 className="text-[#45483D] text-[15px] mb-6">
+                TELA DE ALGODÓN TANGÜIS: BERGMAN / RIVERA
+              </h3>
+              <div className="flex items-start">
+                <div className="mr-3 mt-1">
+                  <FaMapMarkerAlt color={"#5F6259"} className="text-[28px]" />
+                </div>
+                <div className="">
+                  <h4 className="font-bold text-[#5F6259] text-[17px] m-0">
+                    Localización
+                  </h4>
+                  <span className="text-[13px] text-[#5F6259] font-bold block">
+                    Ubicación:
+                  </span>
+                  <p className="text-[13px] text-[#5F6259]">
+                    Dirección, provincia, departamento, región
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="mb-6">
+              <h3 className="text-[#45483D] text-[15px] mb-6">
+                TELA DE ALGODÓN TANGÜIS: BERGMAN / RIVERA
+              </h3>
+              <div className="flex items-start">
+                <div className="mr-3 mt-1">
+                  <FaMapMarkerAlt color={"#5F6259"} className="text-[28px]" />
+                </div>
+                <div className="">
+                  <h4 className="font-bold text-[#5F6259] text-[17px] m-0">
+                    Localización
+                  </h4>
+                  <span className="text-[13px] text-[#5F6259] font-bold block">
+                    Ubicación:
+                  </span>
+                  <p className="text-[13px] text-[#5F6259]">
+                    Dirección, provincia, departamento, región
+                  </p>
+                </div>
+              </div>
+            </div>
           </AccordionContent>
         </Accordion>
 
@@ -24,8 +85,27 @@ export default function Trazabilidad() {
             Información
           </AccordionHead>
           <AccordionContent isOpen={false}>
-            <p>Otro contenido</p>
-            <p>Hola nuevamente</p>
+            <div className="mb-6">
+              <h3 className="text-[#45483D] text-[15px] mb-6">
+                TELA DE ALGODÓN TANGÜIS: BERGMAN / RIVERA
+              </h3>
+              <div className="flex items-start">
+                <div className="mr-3 mt-1">
+                  <FaMapMarkerAlt color={"#5F6259"} className="text-[28px]" />
+                </div>
+                <div className="">
+                  <h4 className="font-bold text-[#5F6259] text-[17px] m-0">
+                    Localización
+                  </h4>
+                  <span className="text-[13px] text-[#5F6259] font-bold block">
+                    Ubicación:
+                  </span>
+                  <p className="text-[13px] text-[#5F6259]">
+                    Dirección, provincia, departamento, región
+                  </p>
+                </div>
+              </div>
+            </div>
           </AccordionContent>
         </Accordion>
       </div>
