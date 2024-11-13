@@ -1,6 +1,6 @@
 // components/AccordionHead.tsx
 import React, { ReactNode } from "react";
-import { FaAngleDown } from "react-icons/fa";
+import { GoChevronDown } from "react-icons/go";
 
 interface AccordionHeadProps {
   children: ReactNode;
@@ -15,11 +15,11 @@ const AccordionHead: React.FC<AccordionHeadProps> = ({
 }) => {
   return (
     <div
-      className="accordion-head p-4 cursor-pointer flex justify-between items-center bg-gray-100 hover:bg-gray-200"
+      className="accordion-head p-4 cursor-pointer flex justify-between items-center hover:bg-gray-200"
       onClick={toggleAccordion}
     >
-      <h3 className="text-sm font-medium">{children}</h3>
-      <FaAngleDown
+      <h3 className="text-[17px] font-bold text-[#45483d]">{children}</h3>
+      <GoChevronDown
         size={16}
         className={`transition-transform duration-300 ${
           isOpen ? "rotate-180" : ""

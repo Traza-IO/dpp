@@ -30,14 +30,6 @@ body {
 }
 
 .swiper-slide {
-  @apply transition-transform duration-500 ease-in-out transform;
-}
-.swiper-3d .swiper-slide-shadow-left,
-.swiper-3d .swiper-slide-shadow-right {
-  display: none;
-}
-
-.swiper-slide {
   opacity: 0.4;
 }
 
@@ -48,4 +40,10 @@ body {
 .nav-link.active {
   color: #1e90ff;
   font-weight: bold;
+}
+
+@media screen and (max-width: 768px) {
+  .swiper-slide {
+    opacity: 1;
+  }
 }

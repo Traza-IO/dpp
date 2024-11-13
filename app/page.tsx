@@ -7,7 +7,7 @@ import { FaChevronCircleRight } from "react-icons/fa";
 export default function Home() {
   return (
     <>
-      <div className="max-w-[1024px] mx-auto mt-6">
+      <div className="max-w-[1024px] mx-auto mt-6 px-5">
         <Accordion>
           <AccordionHead toggleAccordion={() => {}} isOpen={false}>
             Descripción
@@ -50,41 +50,41 @@ export default function Home() {
             <ul>
               <li className="text-[13px] flex w-full justify-between py-[10px] border-solid border-b-[1px]">
                 <strong className="text-[#45483D]">Nombre:</strong>
-                <p>
+                <p className="text-right">
                   Polerón con capucha estampado “Colección Chavin de Huantar”
                 </p>
               </li>
               <li className="text-[13px] flex w-full justify-between py-[10px] border-solid border-b-[1px]">
                 <strong className="text-[#45483D]">Marca:</strong>
-                <p>MESTIZA</p>
+                <p className="text-right">MESTIZA</p>
               </li>
               <li className="text-[13px] flex w-full justify-between py-[10px] border-solid border-b-[1px]">
                 <strong className="text-[#45483D]">GTIN:</strong>
-                <p>17751234567890</p>
+                <p className="text-right">17751234567890</p>
               </li>
               <li className="text-[13px] flex w-full justify-between py-[10px] border-solid border-b-[1px]">
                 <strong className="text-[#45483D]">Código de Producto:</strong>
-                <p>000000001</p>
+                <p className="text-right">000000001</p>
               </li>
               <li className="text-[13px] flex w-full justify-between py-[10px] border-solid border-b-[1px]">
                 <strong className="text-[#45483D]">Categoría:</strong>
-                <p>Ropa de Hombre</p>
+                <p className="text-right">Ropa de Hombre</p>
               </li>
               <li className="text-[13px] flex w-full justify-between py-[10px] border-solid border-b-[1px]">
                 <strong className="text-[#45483D]">Talla:</strong>
-                <p>Mediano</p>
+                <p className="text-right">Mediano</p>
               </li>
               <li className="text-[13px] flex w-full justify-between py-[10px] border-solid border-b-[1px]">
                 <strong className="text-[#45483D]">Color:</strong>
-                <p>Blanco Natural</p>
+                <p className="text-right">Blanco Natural</p>
               </li>
               <li className="text-[13px] flex w-full justify-between py-[10px] border-solid border-b-[1px]">
                 <strong className="text-[#45483D]">Año:</strong>
-                <p>2024</p>
+                <p className="text-right">2024</p>
               </li>
               <li className="text-[13px] flex w-full justify-between py-[10px] border-solid border-b-[1px]">
                 <strong className="text-[#45483D]">Estación:</strong>
-                <p>Otoño / Invierno</p>
+                <p className="text-right">Otoño / Invierno</p>
               </li>
             </ul>
           </AccordionContent>
@@ -97,21 +97,21 @@ export default function Home() {
             <ul>
               <li className="text-[13px] flex w-full justify-between py-[10px] border-solid border-b-[1px]">
                 <strong className="text-[#45483D]">Composición:</strong>
-                <p>100% algodón tangüis</p>
+                <p className="text-right">100% algodón tangüis</p>
               </li>
               <li className="text-[13px] flex w-full justify-between py-[10px] border-solid border-b-[1px]">
                 <strong className="text-[#45483D]">Reciclado:</strong>
-                <p>No</p>
+                <p className="text-right">No</p>
               </li>
               <li className="text-[13px] flex w-full justify-between py-[10px] border-solid border-b-[1px]">
                 <strong className="text-[#45483D]">% Reciclado:</strong>
-                <p>0%</p>
+                <p className="text-right">0%</p>
               </li>
               <li className="text-[13px] flex w-full justify-between py-[10px] border-solid border-b-[1px]">
                 <strong className="text-[#45483D]">
                   Ingreso de Reciclado:
                 </strong>
-                <p>Algodón Orgánico GOTS</p>
+                <p className="text-right">Algodón Orgánico GOTS</p>
               </li>
             </ul>
           </AccordionContent>

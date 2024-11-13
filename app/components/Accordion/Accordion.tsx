@@ -18,7 +18,7 @@ const Accordion: React.FC<AccordionProps> = ({ children }) => {
   };
 
   return (
-    <div className="accordion border-b-2">
+    <div className="accordion border-b border-[#797f75]">
       {React.Children.map(children, (child) => {
         if (React.isValidElement<AccordionChildProps>(child)) {
           return React.cloneElement(child, { isOpen, toggleAccordion });
